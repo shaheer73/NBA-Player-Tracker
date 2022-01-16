@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap");
+
+.App {
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  background: url(net2.jpeg) no-repeat center;
+  height: 100vh;
+  background-size: 100%;
+}
+
+.intro {
+  background: #262626;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  font-weight: 700;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.section-one {
+  margin: center;
+  align-items: center;
+  align-content: center;
+  position: relative;
+  display: flex;
+  padding: 40px;
+  width: 100%;
+  margin-left: 700px;
+}
+
+.lower-row {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.search {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 50px;
+  font-weight: 700;
+  height: 50px;
+  color: #ff1ac6;
+  outline: 3px black;
+}
+
+.player {
+  padding-left: 30px;
+  padding-right: 20px;
+}
+
+.player input {
+  padding-left: 20px;
+  width: 200px;
+  height: 50px;
+  background-color: transparent;
+  font-size: 15px;
+  border: 6px solid #ff1ac6;
+  border-radius: 10px;
+  color: #ff1ac6;
+  font-weight: 500;
+}
+
+.stats {
+  align-items: center;
+  width: 500px;
+  border: 15px solid whitesmoke;
+  border-radius: 8px;
+  text-align: center;
+  padding: 75px;
+  font-size: 40px;
+  font-weight: 500;
+  color: whitesmoke;
+  background: rgba(105, 105, 105, 0.8);
+  transition: all 0.3s ease;
+  margin-left: 40px;
+  height: 350px;
+}
+
+.stats:hover {
+  color: white;
+  background: rgba(105, 105, 105, 0.7);
+  cursor: pointer;
+  border: 40px solid white;
+  font-weight: 700;
+}
+
+.info {
+  align-items: center;
+  width: 500px;
+  border: 15px solid whitesmoke;
+  border-radius: 8px;
+  text-align: center;
+  padding: 75px;
+  font-size: 40px;
+  font-weight: 500;
+  color: whitesmoke;
+  background: rgba(105, 105, 105, 0.8);
+  transition: all 0.3s ease;
+  margin-right: 40px;
+  height: 350px;
+}
+
+.info:hover {
+  color: white;
+  background: rgba(105, 105, 105, 0.7);
+  cursor: pointer;
+  border: 40px solid white;
+  font-weight: 700;
+}
